@@ -76,6 +76,15 @@ The models were evaluated on RMSE (lower is better) and Ranking Metrics (Precisi
 ### Visualizations
 A visualization of the first 2 latent factors from the SVD model can be found in `docs/svd_latent_factors.png`.
 
+## Trade-offs Between Models
+
+Example:
+
+- User-based CF sensitive to sparse data
+- Item-based more stable
+- SVD handles sparsity via latent features
+
+
 ## Project Structure
 -   `data/`: Contains the dataset.
 -   `notebooks/`:
